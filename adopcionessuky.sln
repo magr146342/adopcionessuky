@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comun.adopsuky", "comun.adopsuky\comun.adopsuky.csproj", "{41260E28-97E6-4EE1-B10D-5BC41CD50D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.adopsuky", "web.adopsuky\web.adopsuky.csproj", "{852A704E-DD4D-4F7C-8D0C-4890C12710E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41260E28-97E6-4EE1-B10D-5BC41CD50D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41260E28-97E6-4EE1-B10D-5BC41CD50D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41260E28-97E6-4EE1-B10D-5BC41CD50D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41260E28-97E6-4EE1-B10D-5BC41CD50D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852A704E-DD4D-4F7C-8D0C-4890C12710E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852A704E-DD4D-4F7C-8D0C-4890C12710E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852A704E-DD4D-4F7C-8D0C-4890C12710E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852A704E-DD4D-4F7C-8D0C-4890C12710E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E261FFB0-88D6-4F77-8F3A-C02EBE16128E}
+	EndGlobalSection
+EndGlobal
