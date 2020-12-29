@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
+using MySql.Data.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using web.adopsuky.Datos;
 
 namespace web.adopsuky
 {
@@ -24,6 +27,13 @@ namespace web.adopsuky
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<DataContext>(cfg =>
+            {
+                //cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+                cfg.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
